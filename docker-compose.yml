@@ -1,0 +1,6 @@
+﻿services:
+  servermanagement:
+    image: servermanagement
+    build:
+      context: .
+      dockerfile: ServerManagement/Dockerfile

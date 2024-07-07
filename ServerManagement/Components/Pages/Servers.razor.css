@@ -1,0 +1,10 @@
+ul.wide-list {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+ul.wide-list li {
+    display: flex;
+    justify-content: space-between;
+}
